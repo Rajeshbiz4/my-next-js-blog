@@ -12,7 +12,7 @@ const ViewCounter = ({
   noCount = false,
   showCount = true,
 }) => {
-  const [views, setViews] = useState<number>(0);
+  const [views, setViews] = useState(0);
 
   useEffect(() => {
     if (noCount) return;
